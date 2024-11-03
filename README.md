@@ -22,5 +22,14 @@ npm run dev
 - Então se eu tenho uma pasta dentro de /app/users/cadastro/page.tsx ela será a rota => https://www.meuexemplo.com/users/cadastro
 - Preciso sempre criar uma pasta com um arquivo .tsx dentro para criar essa nova rota. 
     - Por exemplo, criei a pasta /about e um aruqivo page.tsx e agora consigo chamar a rota /about.
+- Cada pasta dentro de /app pode criar uma rota
+    - /app/about/page.tsx => cria a rota de /about
+    - /app/products/page.tsx => cria a rota de /products
+    - /app/products/shirt/page.tsx => cria a rota de /products/shirt
+    - /app/products/skirt/page.tsx => cria a rota de /products/skirt
 
+### Navegando entre páginas
+- Para navegar entre páginas no NextJS utilizamos o componente Link
+- Precisamos passar o link da página pela *prop href* do componente
+- 
 
