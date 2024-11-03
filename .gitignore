@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+hello_world/node_modules
+hello_world/.pnp
+hello_world/.pnp.*
+hello_world/.yarn/*
+hello_world/!.yarn/patches
+hello_world/!.yarn/plugins
+hello_world/!.yarn/releases
+hello_world/!.yarn/versions
+
+# testing
+hello_world/coverage
+
+# next.js
+hello_world/.next/
+hello_world/out/
+
+# production
+hello_world/build
+
+# misc
+hello_world/.DS_Store
+hello_world/*.pem
+
+# debug
+hello_world/npm-debug.log*
+hello_world/yarn-debug.log*
+hello_world/yarn-error.log*
+
+# env files (can opt-in for commiting if needed)
+hello_world/.env*
+
+# vercel
+hello_world/.vercel
+
+# typescript
+hello_world/*.tsbuildinfo
+hello_world/next-env.d.ts
