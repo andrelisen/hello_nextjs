@@ -31,5 +31,11 @@ npm run dev
 ### Navegando entre páginas
 - Para navegar entre páginas no NextJS utilizamos o componente Link
 - Precisamos passar o link da página pela *prop href* do componente
-- 
+
+### Componentes
+- São aqueles elementos que se repetem e seguem um "padrão"
+- Podemos replicar esse componente em diferentes páginas
+- A ideia é sempre criar uma pasta chamada /components para não misturar com as pastas
+- Quando queremos que um componente de layout seja "obrigatório" em todas as páginas, precisamos criá-lo como componente e depois add sua declaração no arquivo layout.tsx
+
 
